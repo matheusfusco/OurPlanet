@@ -7,21 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		522F442C6008165C0518DB8F /* Pods_OurPlanet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C1C8EA8A27F871639BB5F3E /* Pods_OurPlanet.framework */; };
+		5E0EA4D2215CF3E80023FCF1 /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0EA4D1215CF3E80023FCF1 /* CategoriesViewController.swift */; };
+		5E0EA4D4215CF3F30023FCF1 /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0EA4D3215CF3F30023FCF1 /* EventsViewController.swift */; };
+		5E0EA4D6215CF4150023FCF1 /* EOCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0EA4D5215CF4150023FCF1 /* EOCategory.swift */; };
+		5E0EA4D8215CF42B0023FCF1 /* EOError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0EA4D7215CF42B0023FCF1 /* EOError.swift */; };
+		5E0EA4DA215CF45E0023FCF1 /* EOEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0EA4D9215CF45E0023FCF1 /* EOEvent.swift */; };
+		5E0EA4DC215CF4C10023FCF1 /* EONet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0EA4DB215CF4C10023FCF1 /* EONet.swift */; };
+		5E0EA4DE215CF4D50023FCF1 /* EOLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0EA4DD215CF4D50023FCF1 /* EOLocation.swift */; };
+		5E0EA4E0215CFB060023FCF1 /* EventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0EA4DF215CFB060023FCF1 /* EventCell.swift */; };
 		5EA301DB215A4F44001A748C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA301DA215A4F44001A748C /* AppDelegate.swift */; };
-		5EA301DD215A4F44001A748C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA301DC215A4F44001A748C /* ViewController.swift */; };
 		5EA301E0215A4F44001A748C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EA301DE215A4F44001A748C /* Main.storyboard */; };
 		5EA301E2215A4F46001A748C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EA301E1215A4F46001A748C /* Assets.xcassets */; };
 		5EA301E5215A4F46001A748C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EA301E3215A4F46001A748C /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C1C8EA8A27F871639BB5F3E /* Pods_OurPlanet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OurPlanet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		594B85A5D5EEB9472CF6F15F /* Pods-OurPlanet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OurPlanet.release.xcconfig"; path = "Pods/Target Support Files/Pods-OurPlanet/Pods-OurPlanet.release.xcconfig"; sourceTree = "<group>"; };
+		5E0EA4D1215CF3E80023FCF1 /* CategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
+		5E0EA4D3215CF3F30023FCF1 /* EventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
+		5E0EA4D5215CF4150023FCF1 /* EOCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EOCategory.swift; sourceTree = "<group>"; };
+		5E0EA4D7215CF42B0023FCF1 /* EOError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EOError.swift; sourceTree = "<group>"; };
+		5E0EA4D9215CF45E0023FCF1 /* EOEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EOEvent.swift; sourceTree = "<group>"; };
+		5E0EA4DB215CF4C10023FCF1 /* EONet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EONet.swift; sourceTree = "<group>"; };
+		5E0EA4DD215CF4D50023FCF1 /* EOLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EOLocation.swift; sourceTree = "<group>"; };
+		5E0EA4DF215CFB060023FCF1 /* EventCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCell.swift; sourceTree = "<group>"; };
 		5EA301D7215A4F44001A748C /* OurPlanet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OurPlanet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EA301DA215A4F44001A748C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5EA301DC215A4F44001A748C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5EA301DF215A4F44001A748C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5EA301E1215A4F46001A748C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5EA301E4215A4F46001A748C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5EA301E6215A4F46001A748C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		651B712586ED38518DB5BAFE /* Pods-OurPlanet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OurPlanet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OurPlanet/Pods-OurPlanet.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +47,51 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				522F442C6008165C0518DB8F /* Pods_OurPlanet.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E0EA4CE215CF3640023FCF1 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				5EA301DE215A4F44001A748C /* Main.storyboard */,
+				5EA301E3215A4F46001A748C /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		5E0EA4CF215CF3760023FCF1 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5E0EA4D1215CF3E80023FCF1 /* CategoriesViewController.swift */,
+				5E0EA4D3215CF3F30023FCF1 /* EventsViewController.swift */,
+				5E0EA4DF215CFB060023FCF1 /* EventCell.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		5E0EA4D0215CF3820023FCF1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5E0EA4D5215CF4150023FCF1 /* EOCategory.swift */,
+				5E0EA4D7215CF42B0023FCF1 /* EOError.swift */,
+				5E0EA4D9215CF45E0023FCF1 /* EOEvent.swift */,
+				5E0EA4DB215CF4C10023FCF1 /* EONet.swift */,
+				5E0EA4DD215CF4D50023FCF1 /* EOLocation.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		5EA301CE215A4F44001A748C = {
 			isa = PBXGroup;
 			children = (
 				5EA301D9215A4F44001A748C /* OurPlanet */,
 				5EA301D8215A4F44001A748C /* Products */,
+				CF9E954496B05127D6120FBC /* Pods */,
+				FFF5CE0F8E96F21FC1AED72B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +107,30 @@
 			isa = PBXGroup;
 			children = (
 				5EA301DA215A4F44001A748C /* AppDelegate.swift */,
-				5EA301DC215A4F44001A748C /* ViewController.swift */,
-				5EA301DE215A4F44001A748C /* Main.storyboard */,
+				5E0EA4CF215CF3760023FCF1 /* ViewControllers */,
+				5E0EA4D0215CF3820023FCF1 /* Models */,
+				5E0EA4CE215CF3640023FCF1 /* Storyboards */,
 				5EA301E1215A4F46001A748C /* Assets.xcassets */,
-				5EA301E3215A4F46001A748C /* LaunchScreen.storyboard */,
 				5EA301E6215A4F46001A748C /* Info.plist */,
 			);
 			path = OurPlanet;
+			sourceTree = "<group>";
+		};
+		CF9E954496B05127D6120FBC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				651B712586ED38518DB5BAFE /* Pods-OurPlanet.debug.xcconfig */,
+				594B85A5D5EEB9472CF6F15F /* Pods-OurPlanet.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FFF5CE0F8E96F21FC1AED72B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C1C8EA8A27F871639BB5F3E /* Pods_OurPlanet.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +140,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5EA301E9215A4F46001A748C /* Build configuration list for PBXNativeTarget "OurPlanet" */;
 			buildPhases = (
+				0D33FF89AF97318F1972EDD9 /* [CP] Check Pods Manifest.lock */,
 				5EA301D3215A4F44001A748C /* Sources */,
 				5EA301D4215A4F44001A748C /* Frameworks */,
 				5EA301D5215A4F44001A748C /* Resources */,
+				D21EB9030B6D9AF51B6FBF75 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +201,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0D33FF89AF97318F1972EDD9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OurPlanet-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D21EB9030B6D9AF51B6FBF75 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-OurPlanet/Pods-OurPlanet-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OurPlanet/Pods-OurPlanet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5EA301D3215A4F44001A748C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EA301DD215A4F44001A748C /* ViewController.swift in Sources */,
+				5E0EA4DE215CF4D50023FCF1 /* EOLocation.swift in Sources */,
+				5E0EA4E0215CFB060023FCF1 /* EventCell.swift in Sources */,
+				5E0EA4DA215CF45E0023FCF1 /* EOEvent.swift in Sources */,
+				5E0EA4D8215CF42B0023FCF1 /* EOError.swift in Sources */,
+				5E0EA4D4215CF3F30023FCF1 /* EventsViewController.swift in Sources */,
+				5E0EA4D6215CF4150023FCF1 /* EOCategory.swift in Sources */,
 				5EA301DB215A4F44001A748C /* AppDelegate.swift in Sources */,
+				5E0EA4D2215CF3E80023FCF1 /* CategoriesViewController.swift in Sources */,
+				5E0EA4DC215CF4C10023FCF1 /* EONet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +407,7 @@
 		};
 		5EA301EA215A4F46001A748C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 651B712586ED38518DB5BAFE /* Pods-OurPlanet.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,6 +425,7 @@
 		};
 		5EA301EB215A4F46001A748C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 594B85A5D5EEB9472CF6F15F /* Pods-OurPlanet.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
